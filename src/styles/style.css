@@ -1,0 +1,254 @@
+/* styles.css */
+
+/* Navbar */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar li {
+    margin-right: 10px;
+  }
+  
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Player */
+  .player {
+    background-color: #f1f1f1;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .player img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .player-details {
+    flex: 1;
+  }
+  
+  .player-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .player-artist {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .player-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  /* Home */
+  .home {
+    padding: 20px;
+  }
+  
+  .home-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .home-music-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .home-music-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .home-music-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .home-music-item h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .home-music-item p {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  /* Trending */
+  .trending {
+    padding: 20px;
+  }
+  
+  .trending-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .trending-music-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .trending-music-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .trending-music-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .trending-music-item h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .trending-music-item p {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  /* Feeds */
+  .feeds {
+    padding: 20px;
+  }
+  
+  .feeds-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .feed-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .feed-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .feed-item h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .feed-item p {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  /* Favorite */
+  .favorite {
+    padding: 20px;
+  }
+  
+  .favorite-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .favorite-music-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .favorite-music-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .favorite-music-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .favorite-music-item h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .favorite-music-item p {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  /* Library */
+  .library {
+    padding: 20px;
+  }
+  
+  .library-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .library-music-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .library-music-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .library-music-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .library-music-item h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .library-music-item p {
+    font-size: 14px;
+    color: #777;
+  }
+  
